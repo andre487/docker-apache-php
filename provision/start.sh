@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -e
+set -ex
 
-source /etc/apache2/envvars
-/usr/sbin/apache2 -D FOREGROUND
+/usr/sbin/apache2ctl -D FOREGROUND
