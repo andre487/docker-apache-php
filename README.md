@@ -7,3 +7,5 @@ Based on Debian 8 Jessie. Includes packages:
   * php5-mysql
 
 Logging is piped out to STDOUT and STDERR
+
+Image on the Docker Hub: [andre487/apache-php](https://hub.docker.com/r/andre487/apache-php/)
